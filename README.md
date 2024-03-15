@@ -82,19 +82,12 @@ git clone -b main https://github.com/nokitoino/DecompilerAI.git
 Make sure you have installed python3 by  `python3 --version` and Jupyter Notebook.
 First, install the required python modules.
 #### Install python modules automatically
-```
+```sh
 pip install -r requirements.txt
 ```
 #### Alternative: Install python modules manually
-```
-pip install torch
-pip install transformers
-pip install sentencepiece
-pip install matplotlib
-pip install scikit-learn
-pip install tree_sitter
-pip install tqdm
-
+```sh
+pip install torch transformers sentencepiece matplotlib scikit-learn tree_sitter tqdm
 ```
 
 ### Install additional libraries
